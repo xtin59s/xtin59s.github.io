@@ -9,7 +9,7 @@ body {
   padding: 0;
   width: 100%;
   padding-top: 80px;
-  height: 1900px;
+  height: 100vh;
 }
 
 header {
@@ -109,7 +109,6 @@ header {
 
 .scrolled.navbar .nav .item .navactive {
   display: inline-block;
-  background-color: #ffffff;
   height: 40px;
   line-height: 30px;
   padding: 5px;
@@ -134,4 +133,10 @@ header {
   border-radius: 50%;
   margin-left: 9%;
   transition: 0.5s ease;
- }
+}
+
+.navbar .nav .item a:hover {
+  text-decoration: none;
+  color: red;
+}
+

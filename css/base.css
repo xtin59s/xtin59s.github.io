@@ -59,12 +59,12 @@ header {
 
 .navbar .nav .item .navactive {
   display: inline-block;
-  background-color: #ffffff;
   height: 40px;
   line-height: 30px;
   padding: 5px;
   border-radius: 2px;
   transition: 0.5s ease;
+  color: red;
 }
 
 .navbar .nav .item a {

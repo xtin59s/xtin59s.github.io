@@ -24,16 +24,16 @@
             switch (item.stage) {
                 case 1:
                     stage.innerHTML = 'INIT';
-                    [break;]
+                    break;
                 case 2:
                     stage.innerHTML = 'DOWNLING';
-                    [break;]
+                    break;
                 case 3:
                     stage.innerHTML = 'UPLOADING';
-                    [break;]
+                    break;
                 case 4:
                     stage.innerHTML = 'UPLOADED';
-                    [break;]
+                    break;
             }
             var name = row.insertCell(-1);
             name.innerHTML = item.title;

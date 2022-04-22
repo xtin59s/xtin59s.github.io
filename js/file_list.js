@@ -35,7 +35,6 @@
                     stage.innerHTML = 'UPLOADED';
                     [break;]
             }
-            stage.innerHTML = 'download';
             var name = row.insertCell(-1);
             name.innerHTML = item.title;
             var progress = row.insertCell(-1);

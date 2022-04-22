@@ -21,6 +21,20 @@
         dl_list_obj.v.forEach(function(item){
             var row = tbody.insertRow(-1);
             var stage = row.insertCell(-1);
+            switch (item.stage) {
+                case 1:
+                    stage.innerHTML = 'INIT';
+                    [break;]
+                case 2:
+                    stage.innerHTML = 'DOWNLING';
+                    [break;]
+                case 3:
+                    stage.innerHTML = 'UPLOADING';
+                    [break;]
+                case 4:
+                    stage.innerHTML = 'UPLOADED';
+                    [break;]
+            }
             stage.innerHTML = 'download';
             var name = row.insertCell(-1);
             name.innerHTML = item.title;

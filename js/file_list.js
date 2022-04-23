@@ -34,6 +34,12 @@
                 case 4:
                     stage.innerHTML = 'UPLOADED';
                     break;
+                case 5:
+                    stage.innerHTML = 'LOCALING';
+                    break;
+                case 6:
+                    stage.innerHTML = 'LOCALDLD';
+                    break;
             }
             var name = row.insertCell(-1);
             name.innerHTML = item.title;

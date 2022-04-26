@@ -40,6 +40,12 @@
                 case 6:
                     stage.innerHTML = 'LOCALDLD';
                     break;
+                case 7:
+                    stage.innerHTML = 'FMPEGING';
+                    break;
+                case 8:
+                    stage.innerHTML = 'FMPEGED';
+                    break;
             }
             var name = row.insertCell(-1);
             name.innerHTML = item.title;

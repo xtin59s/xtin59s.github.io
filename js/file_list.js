@@ -13,6 +13,7 @@
 
     var tbody = document.getElementById('ltbody');
     var baseUrl = 'https://xtin.tintinlog.com';
+
     function process_dl_list(dl_list_obj) {
         if (dl_list_obj.status != 0) {
             return;
@@ -44,7 +45,7 @@
                     stage.innerHTML = 'FMPEGING';
                     break;
                 case 8:
-                    stage.innerHTML = 'FMPEGED';
+                    stage.innerHTML = 'CLOUDED';
                     break;
             }
             var name = row.insertCell(-1);

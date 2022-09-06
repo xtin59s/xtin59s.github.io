@@ -1,9 +1,9 @@
-$(document).ready(function() {
-      $(window).on('scroll', function() {
-        if (Math.round($(window).scrollTop()) > 100) {
-          $('.navbar').addClass('scrolled');
-        } else {
-          $('.navbar').removeClass('scrolled');
-        }
-      });
-});
+'use strict';
+
+const themeBtn = document.querySelectorAll('.theme-btn');
+
+for (let i = 0; i < themeBtn.length; i++) {
+    themeBtn[i].addEventListener('click', function () {
+        console.log('hello');
+    })
+}
